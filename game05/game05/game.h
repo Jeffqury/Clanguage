@@ -1,0 +1,16 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#define ROW 3
+#define COL 3
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+//≥ı ºªØ∆Â≈Ã
+void initboard(char board[ROW][COL], int row, int col);
+displayboard(char board[ROW][COL], int row, int col);
+//ÕÊº““∆∂Ø
+playermove(char board[ROW][COL], int row, int col);
+//µÁƒ‘“∆∂Ø
+computermove(char board[ROW][COL], int row, int col);
+//≈–∂œ ‰”Æ
+iswin(char board[ROW][COL], int row, int col);
